@@ -1,0 +1,146 @@
+[
+  {
+    "id": "aura-headphones",
+    "name": "Aura Studio",
+    "category": "Audio",
+    "subtitle": "Casque sans fil spatial",
+    "description": "Un casque circum-aural premium avec réduction de bruit adaptative, son spatial et finition aluminium douce au toucher.",
+    "price": 0.01,
+    "accent": "pink",
+    "specs": [
+      "40 h d’autonomie",
+      "Réduction de bruit",
+      "Audio spatial",
+      "USB‑C"
+    ],
+    "badge": "BEST-SELLER",
+    "reference": "AUR-AS-01",
+    "shortDescription": "Casque circum-aural premium",
+    "gallery": [
+      "Vue principale",
+      "Profil gauche",
+      "Détail coussinet",
+      "Commandes"
+    ]
+  },
+  {
+    "id": "pulse-watch",
+    "name": "Pulse One",
+    "category": "Objets connectés",
+    "subtitle": "Montre connectée minimaliste",
+    "description": "Une montre connectée épurée pour les notifications, le suivi d’activité et du sommeil, avec écran bord à bord très lumineux.",
+    "price": 0.01,
+    "accent": "violet",
+    "specs": [
+      "7 jours d’autonomie",
+      "AMOLED",
+      "GPS",
+      "5 ATM"
+    ],
+    "badge": "NOUVEAUTÉ",
+    "reference": "AUR-PO-02",
+    "shortDescription": "Montre connectée minimaliste",
+    "gallery": [
+      "Vue principale",
+      "Cadran",
+      "Profil",
+      "Bracelet"
+    ]
+  },
+  {
+    "id": "beam-speaker",
+    "name": "Beam Mini",
+    "category": "Audio",
+    "subtitle": "Enceinte portable",
+    "description": "Une enceinte sans fil compacte au son ample, avec recharge USB‑C et appairage multi-enceintes pour une démonstration flexible.",
+    "price": 0.01,
+    "accent": "orange",
+    "specs": [
+      "18 h d’autonomie",
+      "Bluetooth 5.3",
+      "USB‑C",
+      "Paire stéréo"
+    ],
+    "badge": "POPULAIRE",
+    "reference": "AUR-BM-03",
+    "shortDescription": "Enceinte Bluetooth compacte",
+    "gallery": [
+      "Vue principale",
+      "Profil",
+      "Connectique",
+      "Détail grille"
+    ]
+  },
+  {
+    "id": "flow-keyboard",
+    "name": "Flow 75",
+    "category": "Bureau",
+    "subtitle": "Clavier mécanique compact",
+    "description": "Un clavier 75 % raffiné avec switches low-profile remplaçables, connexion sans fil et rétroéclairage blanc discret.",
+    "price": 0.01,
+    "accent": "blue",
+    "specs": [
+      "Hot-swap",
+      "2,4 GHz",
+      "Bluetooth",
+      "USB‑C"
+    ],
+    "badge": "ÉDITION LIMITÉE",
+    "reference": "AUR-F75-04",
+    "shortDescription": "Clavier mécanique 75 %",
+    "gallery": [
+      "Vue principale",
+      "Vue de dessus",
+      "Touches",
+      "Profil"
+    ]
+  },
+  {
+    "id": "halo-light",
+    "name": "Halo Desk",
+    "category": "Bureau",
+    "subtitle": "Lampe de bureau adaptative",
+    "description": "Une lampe sculpturale avec variation tactile et réglage de température de couleur, pensée pour un espace de travail premium.",
+    "price": 0.01,
+    "accent": "gold",
+    "specs": [
+      "Contrôle tactile",
+      "2700–6500 K",
+      "USB‑C",
+      "Minuterie"
+    ],
+    "badge": "DESIGN",
+    "reference": "AUR-HD-05",
+    "shortDescription": "Lampe de bureau adaptative",
+    "gallery": [
+      "Vue principale",
+      "Éclairage",
+      "Commande tactile",
+      "Profil"
+    ]
+  },
+  {
+    "id": "arc-charger",
+    "name": "Arc Duo",
+    "category": "Accessoires",
+    "subtitle": "Chargeur magnétique 2-en-1",
+    "description": "Un support de charge magnétique compact pour téléphone et écouteurs, avec base métal lestée et format pliable.",
+    "price": 0.01,
+    "accent": "green",
+    "specs": [
+      "15 W",
+      "Magnétique",
+      "Pliable",
+      "USB‑C"
+    ],
+    "badge": "ESSENTIEL",
+    "reference": "AUR-AD-06",
+    "shortDescription": "Chargeur magnétique double",
+    "gallery": [
+      "Vue principale",
+      "Téléphone",
+      "Écouteurs",
+      "Format plié"
+    ]
+  }
+]

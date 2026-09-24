@@ -1,0 +1,38 @@
+<!doctype html><html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#08090d"><title>AURORA — Boutique démo client</title><meta name="description" content="Boutique e-commerce premium et entièrement fonctionnelle pour démonstration client."><link rel="stylesheet" href="/style.css"></head><body>
+<div class="announcement"><span class="dot"></span><span>DÉMO CLIENT EN DIRECT</span><span>·</span><span>TOUS LES PRODUITS À 0,01 €</span><span>·</span><span>LIVRAISON OFFERTE</span></div>
+<header class="nav"><div class="shell nav-inner"><a class="brand" href="/">AURORA<span>°</span></a><nav class="nav-links"><a href="#collection">Collection</a><a href="#experience">Expérience</a><a href="#experience">Services</a></nav><div class="nav-actions"><button class="icon-btn" id="cartToggle">Panier <span class="cart-count" id="cartCount">0</span></button></div></div></header>
+<main>
+<section class="shell hero">
+  <div class="hero-copy">
+    <p class="eyebrow"><strong>DÉMO 2026</strong> · Pensée pour convertir</p>
+    <h1>Un commerce qui<br><span>inspire confiance.</span></h1>
+    <p>Une boutique de démonstration entièrement fonctionnelle pour montrer à un client ce que peut être une expérience e-commerce moderne, de la découverte produit au suivi de commande.</p>
+    <div class="hero-actions"><a class="primary" href="#collection">Découvrir la collection →</a><button class="secondary" id="heroCart">Ouvrir le panier</button></div>
+    <div class="trust"><span><i></i> Panier fonctionnel</span><span><i></i> Paiement démo à 0,01 €</span><span><i></i> Administration prête à présenter</span></div>
+  </div>
+  <div class="hero-visual" id="heroVisual">
+    <div class="visual-shell"><div class="visual-grid"></div><div class="glow g1"></div><div class="glow g2"></div><div class="product-object"><span class="product-logo">A°</span></div></div>
+    <div class="floating-card fc1"><b>0,01 €</b><span>prix de démonstration</span></div><div class="floating-card fc2"><b>Prête à présenter</b><span>parcours complet</span></div>
+  </div>
+</section>
+<div class="logo-strip"><div class="shell"><span>EXPÉRIENCE PREMIUM</span><span>RESPONSIVE</span><span>CHECKOUT RAPIDE</span><span>SUIVI DE COMMANDE</span><span>ADMINISTRATION</span><span>DÉMO SÉCURISÉE</span></div></div>
+
+<section class="section shell" id="collection">
+  <div class="section-head"><div><p class="eyebrow">COLLECTION DÉMO</p><h2>Des produits conçus pour la présentation.</h2></div><p>Chaque produit est volontairement proposé à 0,01 € afin de présenter tout le parcours d’achat sans utiliser de véritable catalogue commercial.</p></div>
+  <div class="filter-row" id="filters"></div>
+  <div class="product-grid" id="productGrid"></div>
+</section>
+
+<section class="section shell" id="experience">
+  <div class="feature-band">
+    <div class="feature-copy"><p class="eyebrow">PARCOURS DE BOUT EN BOUT</p><h2>Bien plus qu’une belle page d’accueil.</h2><p>La démo inclut les éléments qui comptent réellement pour un client : découverte produit, panier, checkout, paiement simulé, confirmation, suivi et back-office.</p>
+      <div class="feature-list"><div class="feature-item"><b>Panier intelligent</b><span>Vide à chaque nouvelle ouverture</span></div><div class="feature-item"><b>Checkout démo</b><span>Paiement simulé à 0,01 €</span></div><div class="feature-item"><b>Suivi client</b><span>Timeline de statut de commande</span></div><div class="feature-item"><b>Back-office</b><span>Préparer, expédier et terminer les commandes</span></div></div>
+    </div><div class="feature-art"><div class="stack-card back"></div><div class="stack-card"></div></div>
+  </div>
+</section>
+</main>
+<footer class="footer"><div class="shell footer-inner"><div><strong>AURORA°</strong><br>Boutique e-commerce premium de démonstration.</div><div>Environnement de démonstration · Aucune carte bancaire réelle n’est débitée.</div></div></footer>
+
+<div class="drawer-shade" id="cartShade" hidden></div><aside class="drawer" id="cartDrawer" aria-hidden="true"><div class="drawer-head"><h2>Votre panier</h2><button class="drawer-close" id="cartClose" aria-label="Fermer">×</button></div><div class="drawer-body" id="cartBody"></div><div class="drawer-foot"><div class="cart-summary-row"><span>Livraison</span><strong class="free">OFFERTE</strong></div><div class="cart-summary-row"><span>Total</span><strong id="cartTotal">0,00 €</strong></div><button class="primary wide" id="checkoutBtn" disabled>Continuer vers le checkout →</button></div></aside>
+<div class="modal" id="productModal" hidden><div class="product-modal"><button class="modal-close" id="modalClose" aria-label="Fermer">×</button><div class="modal-art" id="modalArt"></div><div class="modal-info" id="modalInfo"></div></div></div>
+<div class="toast" id="toast"></div><script src="/app.js"></script></body></html>
